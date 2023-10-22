@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.logo{
+    font-weight: 400px;
+    font-size: 40px;
+}
+.text-primery{
+    color: orange;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 150px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+   
+}
+nav li{
+    margin-left: 40px;
+    font-size: 20px;
+    font-weight: 300;
+}
