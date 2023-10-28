@@ -9,19 +9,34 @@
 .text-primery{
     color: orange;
 }
+.btn-nav{
+    width: 110px;
+    height: 50px;
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700px;
+    border: 0;
+    color: #FFFF;
+
+}
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 40px 150px;
+    margin: 50px 150px;
+    
+    
 }
 nav ul{
     list-style: none;
     display: flex;
+    align-items: center;
    
 }
 nav li{
     margin-left: 40px;
     font-size: 20px;
     font-weight: 300;
+    text-decoration: none;
 }
