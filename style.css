@@ -15,7 +15,7 @@
     background-color: #FD6E0A;
     border-radius: 5px;
     font-size: 20px;
-    font-weight: 700px;
+    font-weight: 700;
     border: 0;
     color: #FFFF;
 
@@ -24,7 +24,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 50px 150px;
+    margin: 50px 140px;
     
     
 }
@@ -42,7 +42,7 @@ nav li{
 }
 .banner{
     display: flex;
-    margin: 0 150px;
+    margin: 0 140px;
     align-items: center;
 }
 .banner-sub-title{
@@ -60,4 +60,13 @@ nav li{
     font-size: 18px;
     color: var(--Dark-03, #757575);
     margin-bottom: 30px;
+}
+.download-btn{
+    width: 130px;
+    height: 45px;
+    background-color: #FD6E0A;
+    color: #FFFF;
+    font-size: 18px;
+    border: 0;
+    border-radius: 5px;
 }
